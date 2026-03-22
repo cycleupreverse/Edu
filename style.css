@@ -1,0 +1,155 @@
+/* --- 1. DASAR & RESET --- */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #ffffff;
+}
+
+/* --- 2. HEADER (LANDSCAPE) --- */
+header {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 40px 0;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: center;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;   
+    text-align: center;
+}
+
+.logo-image {
+    max-height: 100px; 
+    width: auto;
+    margin-bottom: 15px;
+}
+
+.logo-text {
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #2c3e50;
+}
+
+/* --- 3. KONTEN UTAMA & NAVIGASI TEKS --- */
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Perataan Teks Justify untuk Narasi */
+main p {
+    text-align: justify;
+    text-justify: inter-word; /* Mengatur spasi antar kata agar rapi */
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #27ae60;
+    border-bottom: 2px solid #27ae60;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+/* Mengatur Foto Edukasi & Poster (50% & Tengah) */
+.featured-image-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.featured-image {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* --- 4. BAGIAN KARSA (KOTAK & RESPONSIF) --- */
+.intro-karsa {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 15px; 
+    gap: 10px;
+}
+
+/* Memastikan teks perkenalan tetap rata kiri agar manis */
+.intro-karsa p {
+    margin: 0;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+.karsa-thumb {
+    width: 12vw; 
+    aspect-ratio: 1 / 1; /* Kotak Sempurna */
+    max-width: 80px;  
+    min-width: 50px;
+    object-fit: cover;
+    border-radius: 4px; 
+    border: 3px solid #eee; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* --- 5. FOOTER & KONTAK --- */
+footer {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+/* Mengembalikan teks footer ke rata tengah agar seimbang */
+footer p {
+    text-align: center;
+}
+
+/* Klaim Asuransi Simpel */
+.insurance-section {
+    margin-bottom: 25px;
+}
+
+.insurance-link {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #f1f1f1;
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 0.9em;
+    transition: 0.3s;
+}
+
+.insurance-link:hover {
+    background-color: #e2e2e2;
+    border-color: #999;
+}
+
+/* Tombol WhatsApp */
+.contact-link {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #25d366;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.contact-link:hover {
+    background-color: #014325; /* Hijau tua sesuai permintaan */
+    transform: translateY(-2px);
+}
